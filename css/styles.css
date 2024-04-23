@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 105, 105, 105;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
+  --bs-link-color: #AED6F1;
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -102,7 +102,8 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #d3d3d3;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
   font-size: x-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -121,7 +122,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #1c5fa1;
+  color: #000000;
 }
 
 h1, .h1 {
@@ -6662,6 +6663,7 @@ textarea.form-control-lg {
 .text-bg-primary {
   color: #000 !important;
   background-color: RGBA(189, 93, 56, var(--bs-bg-opacity, 1)) !important;
+  
 }
 
 .text-bg-secondary {
@@ -10832,7 +10834,7 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
